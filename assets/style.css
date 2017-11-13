@@ -1,0 +1,191 @@
+
+body {
+  padding-top: 72px;
+}
+
+a {
+  color: #4683c5;
+}
+
+.btn-primary {
+  background-color: #4392e6;
+  border-color: #4392e6;
+}
+
+.navbar {
+  background: transparent;
+  padding: 1rem;
+}
+.navbar-floating {
+  background: rgba(96, 126, 142, 0.7);
+  transition: background-color 0.5s;
+}
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+#intro {
+  position: relative;
+  top: -72px;
+  padding: 150px 0 130px;
+  background:
+    linear-gradient(rgba(56, 61, 74, .8), rgba(56, 61, 74, .8)),
+    url(intro-bg.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+  #intro-inner {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+    #intro-inner h1 {
+      display: inline-block;
+      font-size: 1.5rem;
+      background: #08AAC7;
+      padding: 7px 10px;
+    }
+    #intro-inner h2 {
+      font-size: 3rem;
+      margin: .5rem 0;
+    }
+    #intro-inner p {
+      line-height: 1.7;
+    }
+
+section {
+  margin-bottom: 90px;
+}
+  section > h2 {
+    border-top: 1px dashed #bbb;
+    position: relative;
+    text-align: center;
+  }
+    section > h2 > span {
+      position: relative;
+      top: -20px;
+      padding: 0 20px;
+      background: #fff;
+      color: #17a8d6;
+    }
+  section > p {
+    text-align: center;
+  }
+
+hr {
+  margin: 40px 0;
+  border-top: 1px dashed #ddd;
+}
+
+.section-intro {
+  text-align: center;
+  margin: 0 0 30px;
+  font-size: 22px;
+  color: #3b4044;
+}
+  .section-intro h3 {
+
+  }
+
+.section-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.section-item {
+  flex: 0 0 33%;
+  padding: 20px;
+}
+.section-items-cols-2 .section-item {
+  flex-basis: 50%
+}
+  .section-item > i.fa {
+    font-size: 30px;
+    color: #76c7e0;
+    display: block;
+    margin-bottom: 10px
+  }
+  .section-item > h3 {
+    color: #000;
+    font-size: 24px;
+  }
+    .section-item > h3 > a {
+      color: #000;
+      text-decoration: none;
+    }
+  .section-item > p {
+    color: #666;
+  }
+
+.media {
+  margin: 40px auto;
+  max-width: 800px;
+}
+  .media > i.fa {
+    display: block;
+    font-size: 64px;
+    color: #76c7e0;
+  }
+  .media > i.fa-minus-circle {
+    color: #f98282;
+  }
+  .media h3 {
+    font-size: 20px;
+  }
+
+@media (max-width: 750px) {
+  .section-item {
+    flex-basis: 100% !important;
+  }
+}
+
+#situation {
+  font-size: 20px;
+  background: url(why-bg.png) no-repeat center -24px;
+  padding: 10px 0;
+}
+  #situation > .row {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #situation > p {
+    margin-top: 71px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .logos img {
+    flex: 1 1 auto;
+    margin: 20px 40px;
+    max-width: 100px;
+  }
+
+iframe {
+  margin: 20px auto;
+  display: block;
+}
+
+#communaute .card-deck {
+  justify-content: center;
+}
+  #communaute .card-deck .card {
+    flex: 0 0 250px;
+  }
+    #communaute .card .card-text {
+      font-size: 14px;
+      color: #555;
+    }
+
+footer {
+  margin: 50px 0 20px;
+  color: #aaa;
+  text-align: center;
+  font-size: 14px;
+}
