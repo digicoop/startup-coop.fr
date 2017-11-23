@@ -144,7 +144,8 @@ hr {
 #situation {
   font-size: 20px;
   background: url(why-bg.png) no-repeat center -24px;
-  padding: 10px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
   #situation > .row {
     margin-bottom: 20px;
@@ -160,6 +161,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
   .logos img {
     flex: 1 1 auto;
@@ -170,21 +172,19 @@ hr {
 iframe {
   margin: 20px auto;
   display: block;
+  max-width: 100%;
 }
 
 #communaute .card-deck {
   justify-content: center;
 }
-  #communaute .card-deck .card {
-    flex: 0 0 250px;
+  #communaute .card .card-body {
+    border-top: 1px solid #eee;
   }
-    #communaute .card .card-body {
-      border-top: 1px solid #eee;
-    }
-    #communaute .card .card-text {
-      font-size: 14px;
-      color: #555;
-    }
+  #communaute .card .card-text {
+    font-size: 14px;
+    color: #555;
+  }
 
 footer {
   margin: 50px 0 20px;
