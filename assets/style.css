@@ -178,6 +178,9 @@ iframe {
   #communaute .card-deck .card {
     flex: 0 0 250px;
   }
+    #communaute .card .card-body {
+      border-top: 1px solid #eee;
+    }
     #communaute .card .card-text {
       font-size: 14px;
       color: #555;
